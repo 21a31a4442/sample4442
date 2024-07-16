@@ -1,0 +1,64 @@
+Git is a version control system.
+
+Git helps you keep track of code changes.
+
+Git is used to collaborate on code.
+
+git do :
+Manage projects with Repositories
+Clone a project to work on a local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of a project
+Pull the latest version of the project to a local copy
+Push local updates to the main project
+
+When a file is changed, added or deleted, it is considered modified
+You select the modified files you want to Stage
+The Staged files are Committed, which prompts Git to store a permanent snapshot of the files
+Git allows you to see the full history of every commit.
+You can revert back to any previous commit.
+
+GitHub makes tools that use Git.
+
+Tracked - files that Git knows about and are added to the repository
+Untracked - files that are in your working directory, but not added to the repository
+
+When you first add files to an empty repository, they are all untracked. To get Git to track them, 
+you need to stage them, or add them to the staging environment.
+
+Staged files are files that are ready to be committed to the repository you are working on.
+
+Git considers each commit change point or "save point". 
+It is a point in the project you can go back to if you find a bug, or want to make a change.
+
+When we commit, we should always include a message.
+By adding clear messages to each commit, it is easy for yourself (and others) to see what has changed and when.
+
+Short status flags are:
+
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+
+The -a option will automatically stage every changed, already tracked file.
+
+to view history of commits use log command
+
+if you dont remember any commands u can use help command
+
+In Git, a branch is a new/separate version of the main repository.
+
+Branches allow you to work on different parts of a project without impacting the main branch.
+When the work is complete, a branch can be merged with the main project.
+Branching in Git is very lightweight and fast!
+
+
+
+
+
+
+
+
+
+

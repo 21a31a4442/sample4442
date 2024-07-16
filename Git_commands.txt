@@ -1,0 +1,48 @@
+Git commands:
+
+version : --version 
+configure git : git config --global user.name "name"
+make directory : mkdir name_of_project
+go to current directory : cd name_of_project
+Initialize Git : get init
+ls command will list all the files in the directory : ls
+status command will help to check the status of git whether the files in git are add to repo or not : git status
+add files : git add file_name.type
+add all files to the staging environment : git add --all
+commit and -m : commit save the changes and -m stores the message :: commit -m "message to be passed"
+commit without staging : git commit -a -m "message"
+short : git status --short
+log command : git log
+git help specific command : git command -help
+git help all commands : git help --all
+create a branch : git branch branch_name
+move to the specific branch : git checkout branch_name
+see all the branches : git branch   ( asteris(*) refers to show which branch we are at
+commiting changes after deleting a file in git : git add -A or git add -rm <file_name>
+
+git add -rm is used for specific file name 
+
+after doing the changes in branch we need to commit 
+
+emergency branch : git checkout -b branch_name  (this command creates the branch and moves to that branch )
+merge branches : git merge branch_name 
+delete a branch : git branch -d branch_name
+
+to see all the users in the git : git config --list
+add an origin url : git remote add origin url
+push : git push --set-upstream origin master
+
+pull : git pull name or git pull origin 
+
+push : git push name or git push origin
+
+
+
+pull a branch from git hub:
+
+git branch -a : this command shows all the available branches in local and remote repository
+
+git branch -r : this command shows only the branches in the remote repository 
+
+git checkout branch_name 
+
